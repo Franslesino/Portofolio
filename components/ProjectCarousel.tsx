@@ -67,7 +67,7 @@ function ProjectCard({ project, isActive }: ProjectCardProps) {
           <p className="text-sm text-muted leading-relaxed mb-6">
             {content.description}
           </p>
-          <div className="flex flex-wrap gap-2 mt-auto">
+          <div className="flex flex-wrap gap-2 mt-auto mb-6">
             {project.techStack.map((tech) => (
               <span
                 key={tech}
@@ -76,6 +76,11 @@ function ProjectCard({ project, isActive }: ProjectCardProps) {
                 {tech}
               </span>
             ))}
+          </div>
+
+          <div className="inline-flex items-center self-start gap-2 px-4 py-2.5 bg-accent text-white text-xs sm:text-sm font-semibold rounded-xl shadow-md shadow-accent/20 hover:bg-accent-hover transition-all duration-300 group-hover:shadow-accent/40">
+            <span>{language === "id" ? "Detail Website" : "Website Details"}</span>
+            <ExternalLink className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" />
           </div>
         </div>
       </div>

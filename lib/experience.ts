@@ -36,15 +36,15 @@ export const experiences: Experience[] = [
       role: "Full-Stack Developer - Seas Voyage",
       period: "Jan 2026 - Feb 2026",
       description:
-        "Mengembangkan aplikasi web pemesanan kapal liveaboard mewah menggunakan Next.js, Tailwind CSS, dan PostgreSQL, serta membangun API route kustom untuk memproses spesifikasi kapal dan ketersediaan kabin secara real-time. Platform ini difokuskan pada pariwisata bahari premium, penyewaan yacht, dan reservasi kabin di destinasi terpencil.",
+        "Mengembangkan platform pemesanan wisata bahari premium untuk penyewaan kapal pesiar menggunakan Next.js, Tailwind CSS v4, dan PostgreSQL. Membangun REST API kustom untuk mengelola data kapal, penetapan harga dinamis, dan katalog destinasi. Mengintegrasikan sistem i18n multibahasa yang mendukung 13+ bahasa serta merancang pengalaman pemesanan yang responsif mirip Airbnb.",
     },
     en: {
       role: "Full-Stack Developer - Seas Voyage",
       period: "Jan 2026 - Feb 2026",
       description:
-        "Developed a luxury liveaboard booking web application using Next.js, Tailwind CSS, and PostgreSQL, building custom API routes to query boat specifications and match cabin availability in real-time. The application functions similarly to lodging booking platforms like Airbnb but focuses on premium marine tourism, yacht chartering, and cabin bookings in remote destinations.",
+        "Developed a premium marine tourism booking platform for yacht chartering using Next.js, Tailwind CSS v4, and PostgreSQL. Built custom REST APIs to manage vessel data, dynamic pricing, and destination cataloging. Integrated a robust multilingual i18n system supporting 13+ languages and designed a seamless, Airbnb-like booking experience.",
     },
-    techUsed: ["Next.js", "Tailwind CSS", "PostgreSQL", "TypeScript", "i18n"],
+    techUsed: ["Next.js", "Tailwind CSS v4", "PostgreSQL", "REST API", "TypeScript", "i18n"],
   },
   {
     company: "PT Canard Money Indonesia",
@@ -52,15 +52,15 @@ export const experiences: Experience[] = [
       role: "Fullstack Developer - Blue Voyage",
       period: "Des 2025 - Feb 2026",
       description:
-        "Mengembangkan aplikasi web pemesanan kapal pesiar mewah menggunakan Next.js, Tailwind CSS, dan PostgreSQL. Mengintegrasikan filter pencarian dinamis, sistem pencocokan ketersediaan kabin secara real-time, dan animasi interaktif menggunakan Framer Motion dengan dukungan multi-bahasa.",
+        "Mengembangkan platform pemesanan kapal pesiar mewah dwibahasa menggunakan Next.js, TypeScript, Tailwind CSS, dan PostgreSQL (via Supabase). Mengintegrasikan REST API untuk menyinkronkan katalog kapal dan menjalankan mesin pencocokan ketersediaan kabin secara real-time. Meningkatkan UX dengan filter pencarian multi-kriteria dinamis dan animasi Framer Motion yang interaktif.",
     },
     en: {
       role: "Fullstack Developer - Blue Voyage",
       period: "Dec 2025 - Feb 2026",
       description:
-        "Developed a luxury liveaboard booking web application using Next.js, Tailwind CSS, and PostgreSQL. Integrated dynamic search filters, a real-time cabin availability matching system, and interactive animations using Framer Motion with multi-language support.",
+        "Developed a bilingual luxury liveaboard booking platform utilizing Next.js, TypeScript, Tailwind CSS, and PostgreSQL (via Supabase). Integrated REST APIs to synchronize vessel catalogs and power a real-time cabin availability matching engine. Enhanced the UX with dynamic multi-criteria search filters and interactive Framer Motion animations.",
     },
-    techUsed: ["Next.js", "Tailwind CSS", "PostgreSQL", "Framer Motion", "TypeScript"],
+    techUsed: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "REST API", "Framer Motion", "i18n"],
   },
   {
     company: "Jakarta State Polytechnic",
