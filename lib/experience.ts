@@ -20,26 +20,26 @@ export const experiences: Experience[] = [
       role: "Frontend Developer & Data Engineer - SleepWell 2.0",
       period: "Mar 2026 - Jun 2026",
       description:
-        "Mengembangkan aplikasi web berbasis Next.js, Tailwind, dan Supabase untuk memvisualisasikan data studi tidur serta menampilkan laporan AI. Memproses file EDF menggunakan MNE dan Python untuk mengubah sinyal ECG, EEG, SpO2, dan Resp menjadi dataset CSV untuk model machine learning.",
+        "Mengembangkan aplikasi web React dan Next.js dengan Tailwind CSS dan Supabase untuk memvisualisasikan data studi tidur serta menampilkan laporan diagnostik AI. Memproses file medis EDF menggunakan Python (MNE) dan ekstraksi fitur FFT untuk mengubah sinyal mentah ECG, EEG, SpO2, dan Resp menjadi dataset CSV statistik untuk model machine learning.",
     },
     en: {
       role: "Frontend Developer & Data Engineer - SleepWell 2.0",
       period: "Mar 2026 - Jun 2026",
       description:
-        "Developed a Next.js, Tailwind, and Supabase-based web application to visualize sleep study data and display AI reports. Processed EDF files using MNE and Python to convert ECG, EEG, SpO2, and Resp signals into CSV datasets for machine learning models.",
+        "Developed a React and Next.js web application styled with Tailwind CSS and backed by Supabase to visualize sleep study data and display AI diagnostic reports. Processed medical EDF files using Python (MNE) and FFT feature extraction to transform raw ECG, EEG, SpO2, and Resp signals into statistical CSV datasets for machine learning models.",
     },
-    techUsed: ["Next.js", "Tailwind CSS", "Supabase", "Python", "MNE", "Machine Learning"],
+    techUsed: ["React", "Next.js", "Tailwind CSS", "Supabase", "Python", "MNE", "FFT", "Machine Learning"],
   },
   {
     company: "PT Canard Money Indonesia",
     id: {
-      role: "Full-Stack Developer - Seas Voyage",
+      role: "Frontend Developer - Seas Voyage",
       period: "Jan 2026 - Feb 2026",
       description:
         "Mengembangkan platform pemesanan wisata bahari premium untuk penyewaan kapal pesiar menggunakan Next.js, Tailwind CSS v4, dan PostgreSQL. Membangun REST API kustom untuk mengelola data kapal, penetapan harga dinamis, dan katalog destinasi. Mengintegrasikan sistem i18n multibahasa yang mendukung 13+ bahasa serta merancang pengalaman pemesanan yang responsif mirip Airbnb.",
     },
     en: {
-      role: "Full-Stack Developer - Seas Voyage",
+      role: "Frontend Developer - Seas Voyage",
       period: "Jan 2026 - Feb 2026",
       description:
         "Developed a premium marine tourism booking platform for yacht chartering using Next.js, Tailwind CSS v4, and PostgreSQL. Built custom REST APIs to manage vessel data, dynamic pricing, and destination cataloging. Integrated a robust multilingual i18n system supporting 13+ languages and designed a seamless, Airbnb-like booking experience.",
@@ -49,16 +49,16 @@ export const experiences: Experience[] = [
   {
     company: "PT Canard Money Indonesia",
     id: {
-      role: "Fullstack Developer - Blue Voyage",
-      period: "Des 2025 - Feb 2026",
+      role: "Frontend Developer - Blue Voyage",
+      period: "Des 2025 - Jan 2026",
       description:
-        "Mengembangkan platform pemesanan kapal pesiar mewah dwibahasa menggunakan Next.js, TypeScript, Tailwind CSS, dan PostgreSQL (via Supabase). Mengintegrasikan REST API untuk menyinkronkan katalog kapal dan menjalankan mesin pencocokan ketersediaan kabin secara real-time. Meningkatkan UX dengan filter pencarian multi-kriteria dinamis dan animasi Framer Motion yang interaktif.",
+        "Mengembangkan UI pemesanan kapal pesiar mewah dwibahasa menggunakan Next.js, TypeScript, dan Tailwind CSS. Mengonsumsi REST API (PostgreSQL via Supabase) untuk menampilkan katalog kapal dan ketersediaan kabin secara real-time, meningkatkan UX dengan filter pencarian dinamis dan animasi Framer Motion.",
     },
     en: {
-      role: "Fullstack Developer - Blue Voyage",
-      period: "Dec 2025 - Feb 2026",
+      role: "Frontend Developer - Blue Voyage",
+      period: "Dec 2025 - Jan 2026",
       description:
-        "Developed a bilingual luxury liveaboard booking platform utilizing Next.js, TypeScript, Tailwind CSS, and PostgreSQL (via Supabase). Integrated REST APIs to synchronize vessel catalogs and power a real-time cabin availability matching engine. Enhanced the UX with dynamic multi-criteria search filters and interactive Framer Motion animations.",
+        "Developed a bilingual luxury liveaboard UI utilizing Next.js, TypeScript, and Tailwind CSS. Consumed REST APIs (PostgreSQL via Supabase) to render vessel catalogs and real-time cabin availability, enhancing UX with dynamic search filters and Framer Motion animations.",
     },
     techUsed: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "REST API", "Framer Motion", "i18n"],
   },

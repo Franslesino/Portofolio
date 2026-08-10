@@ -18,27 +18,27 @@ export const projects: Project[] = [
     id: {
       title: "SleepWell 2.0 - Visualisasi & Laporan AI",
       description:
-        "Aplikasi web Next.js untuk visualisasi data studi tidur dan laporan AI. Memproses file EDF menggunakan Python MNE untuk mengubah sinyal mentah EEG/ECG menjadi dataset ML.",
+        "Mengembangkan aplikasi web React dan Next.js dengan Tailwind CSS dan Supabase untuk memvisualisasikan data studi tidur serta menampilkan laporan diagnostik AI. Memproses file medis EDF menggunakan Python (MNE) dan ekstraksi fitur FFT untuk mengubah sinyal mentah ECG, EEG, SpO2, dan Resp menjadi dataset CSV statistik untuk model machine learning.",
     },
     en: {
       title: "SleepWell 2.0 - Visualization & AI Reports",
       description:
-        "Next.js web application for sleep study data visualization and AI reporting. Processes EDF files using Python MNE to convert raw EEG/ECG signals into ML datasets.",
+        "Developed a React and Next.js web application styled with Tailwind CSS and backed by Supabase to visualize sleep study data and display AI diagnostic reports. Processed medical EDF files using Python (MNE) and FFT feature extraction to transform raw ECG, EEG, SpO2, and Resp signals into statistical CSV datasets for machine learning models.",
     },
     image: "/images/projects/sleepwell-hero.png",
     url: "https://sleep-well.tech/",
-    techStack: ["Next.js", "Tailwind CSS", "Supabase", "Python", "MNE"],
+    techStack: ["React", "Next.js", "Tailwind CSS", "Supabase", "Python", "MNE", "FFT"],
   },
   {
     id: {
       title: "Blue Voyage - Aplikasi Web Booking Mewah",
       description:
-        "Web pemesanan kapal pesiar mewah dengan filter pencarian dinamis, pencocokan ketersediaan kabin real-time, interaksi animasi Framer Motion, dan multi-bahasa.",
+        "Mengembangkan UI pemesanan kapal pesiar mewah dwibahasa menggunakan Next.js, TypeScript, dan Tailwind CSS. Mengonsumsi REST API (PostgreSQL via Supabase) untuk menampilkan katalog kapal dan ketersediaan kabin secara real-time, meningkatkan UX dengan filter pencarian dinamis dan animasi Framer Motion.",
     },
     en: {
       title: "Blue Voyage - Luxury Booking Web App",
       description:
-        "Luxury cruise booking web application with dynamic search filters, real-time cabin availability matching, Framer Motion animations, and multi-language support.",
+        "Developed a bilingual luxury liveaboard UI utilizing Next.js, TypeScript, and Tailwind CSS. Consumed REST APIs (PostgreSQL via Supabase) to render vessel catalogs and real-time cabin availability, enhancing UX with dynamic search filters and Framer Motion animations.",
     },
     image: "/images/bluevoyage/home.png",
     url: "/projects/blue-voyage",
@@ -48,12 +48,12 @@ export const projects: Project[] = [
     id: {
       title: "Seas Voyage - Pemesanan Perjalanan Laut Premium",
       description:
-        "Platform pemesanan perjalanan laut premium dengan booking bar interaktif, katalog kapal liveaboard, destinasi wisata Indonesia, dan integrasi i18n multibahasa.",
+        "Mengembangkan platform pemesanan wisata bahari premium untuk penyewaan kapal pesiar menggunakan Next.js, Tailwind CSS v4, dan PostgreSQL. Membangun REST API kustom untuk mengelola data kapal, penetapan harga dinamis, dan katalog destinasi. Mengintegrasikan sistem i18n multibahasa yang mendukung 13+ bahasa serta merancang pengalaman pemesanan yang responsif mirip Airbnb.",
     },
     en: {
       title: "Seas Voyage - Premium Sea Travel Booking",
       description:
-        "Premium sea travel booking platform featuring an interactive booking bar, liveaboard boat catalog, Indonesian destinations explore, and multilingual i18n support.",
+        "Developed a premium marine tourism booking platform for yacht chartering using Next.js, Tailwind CSS v4, and PostgreSQL. Built custom REST APIs to manage vessel data, dynamic pricing, and destination cataloging. Integrated a robust multilingual i18n system supporting 13+ languages and designed a seamless, Airbnb-like booking experience.",
     },
     image: "/images/seasvoyage/home.png",
     url: "/projects/seasvoyage",

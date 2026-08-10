@@ -184,15 +184,15 @@ export default function BlueVoyagePage() {
           transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] }}
         >
           <span className="inline-block px-4 py-1.5 mb-4 text-xs font-semibold tracking-widest uppercase bg-surface text-muted rounded-full border border-border">
-            PT Canard Money Indonesia · Des 2025 – Feb 2026
+            {language === "id" ? "PT Canard Money Indonesia · Des 2025 – Jan 2026" : "PT Canard Money Indonesia · Dec 2025 – Jan 2026"}
           </span>
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 tracking-tight">
             Blue Voyage
           </h1>
           <p className="text-xl text-muted max-w-2xl mx-auto leading-relaxed mb-8">
             {language === "id" 
-              ? "Platform pemesanan liveaboard mewah untuk wisata bahari di Kepulauan Togean, Sulawesi Tengah."
-              : "Luxury liveaboard booking platform for marine tourism in Togean Islands, Central Sulawesi."}
+              ? "UI pemesanan kapal pesiar mewah dwibahasa berbasis Next.js, TypeScript, dan Tailwind CSS."
+              : "Bilingual luxury liveaboard UI utilizing Next.js, TypeScript, and Tailwind CSS."}
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             {techStack.map((tech) => (
@@ -222,13 +222,13 @@ export default function BlueVoyagePage() {
           <div className="grid md:grid-cols-2 gap-8">
             <p className="text-muted leading-relaxed text-lg">
               {language === "id"
-                ? "Blue Voyage adalah aplikasi web liveaboard booking untuk wisata bahari premium di Kepulauan Togean, Sulawesi Tengah. Dikembangkan sebagai produk komersial untuk PT Canard Money Indonesia, platform ini dirancang untuk memudahkan wisatawan lokal dan mancanegara dalam memesan paket wisata laut eksklusif."
-                : "Blue Voyage is a luxury liveaboard booking web application designed for premium marine tourism in the Togean Islands, Central Sulawesi. Built as a commercial product for PT Canard Money Indonesia, the platform facilitates seamless yacht charter and cabin bookings for domestic and international tourists."}
+                ? "Blue Voyage adalah platform booking kapal pesiar mewah untuk wisata bahari di Kepulauan Togean, Sulawesi Tengah. Mengembangkan UI dwibahasa menggunakan Next.js, TypeScript, dan Tailwind CSS untuk memberikan pengalaman pemesanan eksklusif."
+                : "Blue Voyage is a luxury liveaboard booking platform for marine tourism in the Togean Islands, Central Sulawesi. Developed a bilingual UI utilizing Next.js, TypeScript, and Tailwind CSS to deliver an exclusive booking experience."}
             </p>
             <p className="text-muted leading-relaxed text-lg">
               {language === "id"
-                ? "Sebagai Fullstack Developer, saya bertanggung jawab membangun seluruh arsitektur web dari frontend (UI/UX dengan Next.js & Tailwind CSS) hingga backend (API Routes & integrasi PostgreSQL), termasuk sistem pencocokan ketersediaan kabin secara real-time dan dukungan multi-bahasa."
-                : "As a Fullstack Developer, I was responsible for building the entire web architecture from the frontend (UI/UX with Next.js & Tailwind CSS) to the backend (API Routes & PostgreSQL integration), including real-time cabin availability matching and multilingual i18n support."}
+                ? "Sebagai Frontend Developer di PT Canard Money Indonesia (Des 2025 – Jan 2026), saya mengonsumsi REST API (PostgreSQL via Supabase) untuk menampilkan katalog kapal dan ketersediaan kabin secara real-time, meningkatkan UX dengan filter pencarian dinamis dan animasi Framer Motion."
+                : "As a Frontend Developer at PT Canard Money Indonesia (Dec 2025 – Jan 2026), I consumed REST APIs (PostgreSQL via Supabase) to render vessel catalogs and real-time cabin availability, enhancing UX with dynamic search filters and Framer Motion animations."}
             </p>
           </div>
         </motion.section>

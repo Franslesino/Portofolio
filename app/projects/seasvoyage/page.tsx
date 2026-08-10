@@ -190,15 +190,15 @@ export default function SeasVoyagePage() {
           transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] }}
         >
           <span className="inline-block px-4 py-1.5 mb-4 text-xs font-semibold tracking-widest uppercase bg-surface text-muted rounded-full border border-border">
-            Freelance Project · PT Canard Money Indonesia · 2025
+            PT Canard Money Indonesia · Jan 2026 – Feb 2026
           </span>
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 tracking-tight">
             SEAS VOYAGE
           </h1>
           <p className="text-xl text-muted max-w-2xl mx-auto leading-relaxed mb-8">
             {language === "id"
-              ? "Platform pemesanan perjalanan laut premium dengan smart booking bar, katalog kapal interaktif, dan dukungan multibahasa 13+ bahasa."
-              : "Premium sea travel booking platform featuring a smart booking bar, interactive boat catalog, and multilingual support for 13+ languages."}
+              ? "Platform pemesanan wisata bahari premium untuk penyewaan kapal pesiar menggunakan Next.js, Tailwind CSS v4, dan PostgreSQL."
+              : "Premium marine tourism booking platform for yacht chartering using Next.js, Tailwind CSS v4, and PostgreSQL."}
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             {techStack.map((tech) => (
@@ -228,13 +228,13 @@ export default function SeasVoyagePage() {
           <div className="grid md:grid-cols-2 gap-8">
             <p className="text-muted leading-relaxed text-lg">
               {language === "id"
-                ? "Seas Voyage (Comodo Cruise) adalah platform booking perjalanan laut premium yang dikembangkan untuk PT Canard Money Indonesia. Aplikasi ini memungkinkan wisatawan untuk menjelajahi destinasi eksotis Indonesia seperti Komodo, Raja Ampat, dan Kepulauan Togean melalui pengalaman kapal pesiar mewah."
-                : "Seas Voyage (Comodo Cruise) is a premium sea travel booking platform developed for PT Canard Money Indonesia. The application enables travelers to explore exotic Indonesian destinations such as Komodo, Raja Ampat, and Togean Islands through luxury cruise experiences."}
+                ? "Mengembangkan platform pemesanan wisata bahari premium untuk penyewaan kapal pesiar menggunakan Next.js, Tailwind CSS v4, dan PostgreSQL. Membangun REST API kustom untuk mengelola data kapal, penetapan harga dinamis, dan katalog destinasi."
+                : "Developed a premium marine tourism booking platform for yacht chartering using Next.js, Tailwind CSS v4, and PostgreSQL. Built custom REST APIs to manage vessel data, dynamic pricing, and destination cataloging."}
             </p>
             <p className="text-muted leading-relaxed text-lg">
               {language === "id"
-                ? "Sebagai Fullstack Developer, saya berkontribusi dalam perancangan arsitektur modern Next.js v16 dengan integrasi multi-bahasa yang dinamis, UI interaktif dengan Framer Motion, database PostgreSQL untuk katalog kapal, serta optimalisasi server-side rendering untuk performa terbaik."
-                : "As a Fullstack Developer, I contributed to designing the modern Next.js v16 architecture with dynamic multilingual integrations, interactive user interfaces with Framer Motion, PostgreSQL database configurations for fleet cataloging, and server-side rendering optimizations for maximum performance."}
+                ? "Sebagai Frontend Developer di PT Canard Money Indonesia (Jan 2026 – Feb 2026), saya mengintegrasikan sistem i18n multibahasa yang mendukung 13+ bahasa serta merancang pengalaman pemesanan yang responsif mirip Airbnb."
+                : "As a Frontend Developer at PT Canard Money Indonesia (Jan 2026 – Feb 2026), I integrated a robust multilingual i18n system supporting 13+ languages and designed a seamless, Airbnb-like booking experience."}
             </p>
           </div>
         </motion.section>
