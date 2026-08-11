@@ -17,7 +17,7 @@ export default function Experience() {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
       >
-        {language === "id" ? "Jalur Karir" : "Career Path"}
+        {language === "id" ? "Jalur Proyek" : "Project Track"}
       </motion.span>
       <motion.h2
         className="text-3xl sm:text-4xl font-heading font-bold mb-12"
@@ -26,7 +26,7 @@ export default function Experience() {
         viewport={{ once: true }}
         transition={{ delay: 0.1 }}
       >
-        {language === "id" ? "Pengalaman Kerja" : "Work Experience"}
+        {language === "id" ? "Pengalaman Proyek" : "Project Experience"}
       </motion.h2>
 
       {/* Timeline */}
@@ -61,7 +61,7 @@ export default function Experience() {
                       </h3>
                       <div className="flex items-center gap-2 text-sm text-accent">
                         <Building2 className="w-3.5 h-3.5" />
-                        {exp.company}
+                        {content.institution || exp.company}
                       </div>
                     </div>
                     <div className="flex items-center gap-1.5 text-xs text-muted bg-surface-hover px-3 py-1.5 rounded-full w-fit">
